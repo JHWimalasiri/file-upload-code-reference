@@ -4,7 +4,7 @@ const { createSchemaCountryExclusions } = require('./country_exclusions');
 const { insertMeasureType, getCountryList } = require("./../../query");
 const { createJob, updateJob } = require("../../file_upload_job");
 const moment = require('moment');
-const { v2 } = require('@q4us-sw/q4us-db');
+const { v2 } = require('@yyyy-sw/yyyy-db');
 const { postgres } = v2;
 const Transaction = postgres.Transaction;
 

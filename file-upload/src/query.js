@@ -1,7 +1,7 @@
 /*global module*/
 
-const { default: db ,v2 } = require('@q4us-sw/q4us-db');
-const { isNull } = require('@q4us-sw/q4us-db/lib/v2/postgres');
+const { default: db ,v2 } = require('@yyyy-sw/yyyy-db');
+const { isNull } = require('@yyyy-sw/yyyy-db/lib/v2/postgres');
 const { postgres } = db;
 const { StatusCodes } = require('http-status-codes');
 const {VATRateType} = require('./constants')

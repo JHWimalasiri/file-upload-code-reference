@@ -27,8 +27,8 @@
     "sinon": "^9.0.3"
   },
   "dependencies": {
-    "@q4us-sw/q4us-db": "^1.0.14",
-    "@q4us-sw/q4us-util": "^1.0.40",
+    "@yyyy-sw/yyyy-db": "^1.0.14",
+    "@yyyy-sw/yyyy-util": "^1.0.40",
     "http-status-codes": "^2.1.4",
     "ip": "^1.1.5",
     "nats": "^2.2.0",

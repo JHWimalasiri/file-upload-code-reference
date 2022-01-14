@@ -1,6 +1,6 @@
 const { insertRow, updateById } = require("./query");
 const moment = require('moment');
-const {Q4USUtil} = require("@q4us-sw/q4us-util");
+const {yyyyUtil} = require("@yyyy-sw/yyyy-util");
 
 async function createJob(type) {
 	const job = {
@@ -28,7 +28,7 @@ async function updateJob(jobId, progress, rows, uploadedRows, excludedRows) {
 		excludeRowCount: excludedRows
 	};
 	return  await updateById({tableName: 'file_upload_job',
-		data: { id: jobId, progress: Q4USUtil.roundToDecimal(progress, 2), response: response, last_updated: moment()}
+		data: { id: jobId, progress: yyyyUtil.roundToDecimal(progress, 2), response: response, last_updated: moment()}
 	});
 }
 
